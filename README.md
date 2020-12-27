@@ -10,4 +10,4 @@ Simple and small project to learn how to code done in the school BITCAMP<br>
     데이터베이스에서 자료를 가져와 스윙GUI에 출력하는 예제.<br>
     //oracle, jdbc 를 이용.<br>
     //JVM에서 데이터베이스에 있는 정보를 처리하는 기본적인 방법을 알 수 있는 과제.<br>
-    //jdbc는 JVM에서 DBMS을 사용할 수 있는 드라이버 개념으로 java측에서 제시한 인터페이스를 각 dbms회사에서 구현한 것이다.<br>
+    //jdbc는 JVM에서 DBMS을 사용할 수 있는 드라이버 개념으로 java측에서 제시한 인터페이스를 각 dbms에서 구현한 것이다.<br>
