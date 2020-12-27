@@ -28,33 +28,33 @@
 		   }
 			var writerval = input.writer.value;
 			writerval = trim(writerval);
-			pass = checkByteLen(writerval, 21);
+			pass = checkByteLen(writerval, 15);
 			if(!pass){
-				alert("이름 7자이하");
+				alert("이름 15바이트이하");
 				input.writer.focus();
 				return false;
 			}
 			var emailval = input.email.value;
 			emailval = trim(emailval);
-			pass = checkByteLen(emailval, 30);
+			pass = checkByteLen(emailval, 20);
 			if(!pass){
-				alert("이메일 10자이하");
+				alert("이메일 10바이트이하");
 				input.email.focus();
 				return false;
 			}
 			var subjectval = input.subject.value;
 			subjectval = trim(subjectval);
-			pass = checkByteLen(subjectval, 30);
+			pass = checkByteLen(subjectval, 20);
 			if(!pass){
-				alert("제목 10자이하");
+				alert("제목 10바이트이하");
 				input.subject.focus();
 				return false;
 			}
 			var contentval = input.content.value;
 			contentval = trim(contentval);
-			pass = checkByteLen(contentval, 600);
+			pass = checkByteLen(contentval, 400);
 			if(!pass){
-				alert("글 200자이하");
+				alert("글 200바이트이하");
 				input.writer.focus();
 				return false;
 			}
