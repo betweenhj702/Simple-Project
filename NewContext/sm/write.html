@@ -22,7 +22,7 @@
 		      var inputElem = document.input.elements[i]
 			  if(inputElem.value == "")
 			  {
-			     alert("¸ğµç °ªÀ» ÀÔ·Â ÇÏ¼Å¾ß ÇÕ´Ï´Ù. ");
+			     alert("ëª¨ë“  ê°’ì„ ì…ë ¥ í•˜ì…”ì•¼ í•©ë‹ˆë‹¤. ");
 				 return false;
 			  }
 		   }
@@ -30,7 +30,7 @@
 			writerval = trim(writerval);
 			pass = checkByteLen(writerval, 15);
 			if(!pass){
-				alert("ÀÌ¸§ 15¹ÙÀÌÆ®ÀÌÇÏ");
+				alert("ì´ë¦„ 15ë°”ì´íŠ¸ì´í•˜");
 				input.writer.focus();
 				return false;
 			}
@@ -38,7 +38,7 @@
 			emailval = trim(emailval);
 			pass = checkByteLen(emailval, 20);
 			if(!pass){
-				alert("ÀÌ¸ŞÀÏ 10¹ÙÀÌÆ®ÀÌÇÏ");
+				alert("ì´ë©”ì¼ 10ë°”ì´íŠ¸ì´í•˜");
 				input.email.focus();
 				return false;
 			}
@@ -46,7 +46,7 @@
 			subjectval = trim(subjectval);
 			pass = checkByteLen(subjectval, 20);
 			if(!pass){
-				alert("Á¦¸ñ 10¹ÙÀÌÆ®ÀÌÇÏ");
+				alert("ì œëª© 10ë°”ì´íŠ¸ì´í•˜");
 				input.subject.focus();
 				return false;
 			}
@@ -54,7 +54,7 @@
 			contentval = trim(contentval);
 			pass = checkByteLen(contentval, 400);
 			if(!pass){
-				alert("±Û 200¹ÙÀÌÆ®ÀÌÇÏ");
+				alert("ê¸€ 200ë°”ì´íŠ¸ì´í•˜");
 				input.writer.focus();
 				return false;
 			}
@@ -63,14 +63,14 @@
 	</script>
   </head>
   <body onload="input.writer.focus()">
-	<font color="gray" size='4' face="ÈŞ¸ÕÆíÁöÃ¼">
+	<font color="gray" size='4' face="íœ´ë¨¼í¸ì§€ì²´">
     <center>
 	   <hr width="600" size='2' color="gray" noshade>
 	      <h3> Simple Board with Servlet </h3>
-		  	<font color="gray" size="3" face="ÈŞ¸ÕÆíÁöÃ¼">
-			<a href='list.do'>¸®½ºÆ®</a>
+		  	<font color="gray" size="3" face="íœ´ë¨¼í¸ì§€ì²´">
+			<a href='list.do'>ë¦¬ìŠ¤íŠ¸</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href='../'>ÀÎµ¦½º</a>
+			<a href='../'>ì¸ë±ìŠ¤</a>
 			</font>
 	   <hr width="600" size="2" color="gray" noshade>
 	</center>
@@ -95,8 +95,8 @@
 		  </tr>
 		  <tr>
 		     <td colspan="2" align="center">
-			    <input type="button" value="Àü¼Û" onclick="check()">
-				<input type="reset" value="´Ù½ÃÀÔ·Â" onclick="input.writer.focus()">
+			    <input type="button" value="ì „ì†¡" onclick="check()">
+				<input type="reset" value="ë‹¤ì‹œì…ë ¥" onclick="input.writer.focus()">
 			 </td>
 		  </tr>
 	   </table>
